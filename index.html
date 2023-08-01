@@ -3,44 +3,12 @@
     <head>
         <meta charset="utf-8" />
         <title>Arjun Bhalla - CS110 Personal Page</title>
-        <style>
-            p{
-                font-size: 125%;
-                width: 600px;
-            }
-            h1{
-                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-size: 300%;
-            }
-
-            h3{
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 200%;
-            }
-
-            table{
-                border-spacing: 1px;
-                margin-left: 50px;
-                margin-right: 50px;
-            }
-            th, td {  
-                text-align: center; 
-                line-height: 40px;  
-                
-                width: 400px;            
-            }
-            li{
-                font-size: 125%;
-            }
-
-            img{
-                vertical-align: bottom;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
     </head>
     <body>
+
         <img id="Profile"
-        src="Arjun_Bhalla.jpg"
+        src="./images/Arjun_Bhalla.jpg"
         alt="Arjun_Bhalla"
         width="250" height="200">
         <h1>Arjun Bhalla</h1>
@@ -48,63 +16,97 @@
         <a href="https://www.linkedin.com/in/arjun-bhalla-3bb2aa210/"> Linkedin</a> |
         <a href="https://github.com/arjunbhalla03"> GitHub</a> |
         <a href="https://www.instagram.com/arjunbhallaa/"> Instagram</a>
+        <a href="https://www.instagram.com/arjunbhallaa/">
+            <img id="instagram" 
+            src="./images/instagram.png"
+            alt="Instagram"
+            width="100" height="100">
+        </a>
+        <a href="https://github.com/arjunbhalla03">
+            <img id="github" 
+            src="./images/github.png"
+            alt="Instagram"
+            width="100" height="100">
+        </a>
+        <a href="https://www.linkedin.com/in/arjun-bhalla-3bb2aa210/">
+            <img id="linked" 
+            src="./images/linkedin.png"
+            alt="Linkedin"
+            width="100" height="100">
+        </a>
+        
+
+        
         <h3>About me:</h3>
         <p>I am an incoming transfer student to the Univeristy of California, San Diego. I 
             have spent the past two years studying at the Univeristy of California, Riverside;
             studying computer science and its business applications. I have gained skills in coding in languages such as
             Java, C++, Python, and even HTML.
         </p>
+        <hr>
         <h3>Experience</h3>
         <table>
             
             <tbody>
                 <tr>
-                    <td>Mathnasium, Instructor, 06/2021 - 09/2021</td>
-                    <td>I gave my aid and support to Mathnasium students aiding them with
-                        whatever coursework they were assigned using my strong mathematics 
-                        foundations.
-                    </td>
+                    <th>Mathnasium</th>
+                    <th>Instructor</th>
+                    <th>06/2021 - 09/2021</th>
                 </tr>
                 <tr>
-                    <td>Veritone, Software-Testing Intern, 06/2020 - 08/2020</td>
-                    <td>At Veritone, I was given tasks and bugs to test for within the programs their
+                    <td colspan="3">I gave my aid and support to Mathnasium students aiding them with
+                        whatever coursework they were assigned using my strong mathematics 
+                        foundations.</td>
+                </tr>
+                <tr>
+                    <th>Veritone</th>
+                    <th>Software-Testing Intern</th>
+                    <th>06/2020 - 08/2020</th>
+                </tr>
+                <tr>
+                    <td colspan="3">At Veritone, I was given tasks and bugs to test for within the programs their
                         developers were actively working on at the time. i was also tasked qwith given my normal user feedback
                         as how their application was running and how easy it was to use.
                     </td>
                 </tr>
                 <tr>
-                    <td>American Family Insurance, Software Engineering Intern, 06/2022 - 09/2022</td>
-                    <td>During my time at AMFAM, I was given small tasks to complete when it came to dealing and working
+                    <th>American Family Insurance</th>
+                    <th>Software Engineering Intern</th>
+                    <th>06/2022 - 09/2022</th>
+                </tr>
+                <tr>
+                    <td colspan="3">During my time at AMFAM, I was given small tasks to complete when it came to dealing and working
                         with their web development. I learned how companies use datadog and how they used github to manage
-                    different developer's work </td>
+                    different developer's work.</td>
                 </tr>
 
                 
             </tbody>
         </table>
+        <hr>
 
         <h3>Education</h3>
         <table>
             <tbody>
                 <tr>
-                    <td>High School Diploma</td>
-                    <td>Troy High School</td>
-                    <td>2017 - 2021</td>
+                    <th>High School Diploma</th>
+                    <th>Troy High School</th>
+                    <th>2017 - 2021</th>
                 </tr>
                 <tr>
-                    <td>Bachelors of Science, Computer Science</td>
-                    <td>Univeristy of California, Riverside</td>
-                    <td>2021 - 2023</td>
+                    <th>Bachelors of Science, Computer Science</th>
+                    <th>Univeristy of California, Riverside</th>
+                    <th>2021 - 2023</th>
                 </tr>
                 <tr>
-                    <td>Bachelors of Science, Computer Science</td>
-                    <td>Univeristy of California, San Diego</td>
-                    <td>2023 - 2025</td>
+                    <th>Bachelors of Science, Computer Science</th>
+                    <th>Univeristy of California, San Diego</th>
+                    <th>2023 - 2025</th>
                 </tr>
 
             </tbody>
         </table>
-
+        <hr>
         <h3>Coursework</h3>
         <ul>
             <li>Data Structures and Algorithms</li>
@@ -112,12 +114,14 @@
             <li>Software Construction</li>
             <li>Assembly Language and Machine Organization</li>
         </ul>
+        <hr>
         <h3>Skills</h3>
         <ul>
             <li>C++</li>
             <li>Java</li>
             <li>Python</li>
         </ul>
+        <hr>
         <h3>Projects</h3>
         <ul>
             <li><a href="https://github.com/cs100/final-project-gmere001-apham159-akang048-abhal003">Artscii: </a> We used the load png library 

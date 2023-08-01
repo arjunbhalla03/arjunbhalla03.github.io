@@ -1,0 +1,40 @@
+p{
+    font-size: 125%;
+    width: 600px;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    color: rgb(109, 165, 230);
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    color: rgb(109, 165, 230);
+}
+
+table{
+    border-spacing: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+th, td {  
+    text-align:left; 
+    line-height: 40px;  
+    
+    width: 400px;            
+}
+li{
+    font-size: 125%;
+}
+
+img{
+    float: right;
+    margin-top: 0px;
+    
+}
+
+body{
+    background-color:blanchedalmond;
+}
